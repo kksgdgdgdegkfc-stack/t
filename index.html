@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase + GitHub Pages</title>
+</head>
+<body>
+    <h1>Firebase Test Website</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="addName()">Submit</button>
+
+    <h2>Names in Database:</h2>
+    <h2>Posts:</h2>
+    <div id="posts"></div>
+
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
